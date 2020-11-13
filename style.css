@@ -3,13 +3,13 @@
     padding: 0px;
     box-sizing: border-box;
     background-color: #f8f9fa;
+    font-family: 'Poppins', sans-serif;
 }
 
 nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-family: 'Poppins', sans-serif;
     font-weight: bolder;
     color: #1d3557;
     padding: 15px;
@@ -35,4 +35,56 @@ nav {
 
 .nav-links li {
     list-style: none;
+}
+
+.main {
+    padding: 10px;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.resume {
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.main h2 {
+    padding: 10px;
+}
+
+.main p {
+    padding: 10px;
+}
+
+.resume h3 {
+    font-size: 15px;
+}
+
+.year {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+  
+.years-cols {
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.year li {
+    list-style-position: inside;
+}
+
+.semester {
+    padding: 10px;
 }
