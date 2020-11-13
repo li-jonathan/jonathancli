@@ -5,14 +5,20 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
-        <title>Jonathan Li</title>
+        <link rel="icon" href="icons/icon.png">
+        <title>Jonathan Li | Experience</title>
     </head>
     <body>
         <nav>
             <div class="logo">jonathan li</div>
+            <div class="links">
+                <a href=mailto:li.jonathancj@gmail.com target="blank"><img align="center" src=icons/gmail.svg alt="li.jonathancj" height="15" width="15" /></a>
+                <a href=https://linkedin.com/in/lijonathancj target="blank"><img align="center" src=icons/linkedin.svg alt="lijonathancj" height="15" width="15" /></a>
+                <a href=https://github.com/li-jonathan target="blank"><img align="center" src=icons/github.svg alt="li-jonathan" height="15" width="15" /></a> 
+            </div>
             <div class="nav-links">
                 <ul>
-                    <li><a href="index.html"><u>home</u></a></li>
+                    <li><a href="index.html">home</a></li>
                     <li><a href="experience.html"><u>experience</u></a></li>
                     <li><a href="projects.html">projects</a></li>
                     <li><a href="courses.html">coursework</a></li>
@@ -21,7 +27,41 @@
             </div>
         </nav>
         <div class="main">
-            <p>work in progress!</p>
+            <div class="exp">
+                <h3>software engineer intern</h3>
+                <p>Fortitude Technologies, Reston VA
+                    <ul>
+                        <li>Tasked to build a "virtual recruiter" which would injest emails and process the body as well as any attachments.</li>
+                        <li>Emails & email attachments were stored using AWS S3 buckets, while extracted information from email body & email
+                            attachments were inserted into a AWS RDS.
+                        </li>
+                        <li>AWS Lambdas written in Python + AWS SQS handled pipeline that emails would go through in order to extract skills.</li>
+                        <li>MySQL scripts analyzed collected data to identify trends that would be presented in a web application developed in PHP.</li>
+                        <li>Development was conducted with Git version control, agile methodologies, and CI/CD pipelines.</li>
+                    </ul>
+                </p>
+            </div>
+            <div class="exp">
+                <h3>undergraduate research assistant</h3>
+                <p>Wearable Computing Group, JMU, Harrisonburg VA
+                    <ul>
+                        <li>Automating data extraction, transformation, and loading from data streams for wearable sensors to reduce preparation time for data analysis.</li>
+                        <li>Wrote Python code to scan for nearby Bluetooth IMU sensors and log acceleration data.</li>
+                        <li>Gathered acceleration and gyroscopic metrics for physical therapy exercises to identify connection between data and sensor positioning.</li>
+                    </ul>
+                </p>
+            </div>
+            <div class="exp">
+                <h3>database development intern</h3>
+                <p>MagicQuote, Richmond VA
+                    <ul>
+                        <li>Helped construct and maintain database of new customer information to run analysis on ways to improve customer targeting for auto insurance comparison app.</li>
+                        <li>Accomplished increase in customer purchase rate by creating data analysis scripts in MySQL to improve demographic targeting.</li>
+                        <li>Optimized database schema and predicted trends in app growth by analyzing customer metrics.</li>
+                        <li>Participated in weekly SCRUM meetings to present findings.</li>
+                    </ul>
+                </p>
+            </div>
         </div>
     </body>
 </html>

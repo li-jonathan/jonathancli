@@ -4,6 +4,12 @@
     box-sizing: border-box;
     background-color: #0a192f;
     font-family: 'Poppins', sans-serif;
+    height: auto;
+}
+
+.links {
+    display: block;
+    justify-content: space-around;
 }
 
 nav {
@@ -47,7 +53,6 @@ nav {
     display: block;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .main h1 {
@@ -56,31 +61,27 @@ nav {
     font-size: 35px;
 }
 
-
-.resume {
-    padding: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-}
-
-.main h2 {
-    padding: 10px;
-}
-
 .main p {
     padding: 10px;
 }
 
-.resume h3 {
-    font-size: 15px;
+.main p a {
+    list-style: none;
+    color: #e9c46a;
+    text-decoration: none;
 }
+
+
 
 .year {
     float: left;
     width: 25%;
     padding: 10px;
+}
+
+.year:hover {
+    border: 3px solid #e9c46a;
+    cursor: default;
 }
   
 .years-cols {
@@ -90,6 +91,12 @@ nav {
     display: block;
     margin-left: auto;
     margin-right: auto;
+
+}
+
+.year h3 {
+    text-align: center;
+    color: #e9c46a;
 }
 
 .year li {
@@ -98,4 +105,31 @@ nav {
 
 .semester {
     padding: 10px;
+    color: #f8f9fa;
+}
+
+.semester li a {
+    color: #e9c46a;
+}
+
+.exp {
+    padding: 20px;
+}
+
+.exp h3 {
+    color: #e9c46a;
+}
+
+.exp:hover {
+    border: 3px solid #e9c46a;
+    cursor: default;
+}
+
+.exp li {
+    list-style-position: inside;
+}
+
+.exp a {
+    color: #e9c46a;
+    text-decoration: none;
 }
