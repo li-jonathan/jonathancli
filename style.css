@@ -2,49 +2,60 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    background-color: #f8f9fa;
+    background-color: #0a192f;
     font-family: 'Poppins', sans-serif;
 }
 
 nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    color: #f8f9fa;
+    text-align: center;
+    padding-top: 75px;
     font-weight: bolder;
-    color: #1d3557;
-    padding: 15px;
 }
 
 .logo {
     letter-spacing: 3px;
-    font-size: 20px;
+    font-size: 45px;
 }
 
-.nav-links {
-    display: flex;
-    justify-content: space-around;
-    width: 30%;
+.logo:hover {
+    color: #e9c46a;
+    cursor: pointer;
 }
 
 .nav-links a {
-    color: #1d3557;
+    color: #f8f9fa;
     text-decoration: none;
     letter-spacing: 3px;
-    font-weight: bolder;
+}
+
+.nav-links a:hover {
+    color: #e9c46a;
+    cursor: pointer;
 }
 
 .nav-links li {
     list-style: none;
+    display: inline-block;
+    padding: 20px;
 }
 
 .main {
+    color: #f8f9fa;
     padding: 10px;
-    width: 60%;
+    width: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 
 }
+
+.main h1 {
+    color: #e9c46a;
+    font-weight: bolder;
+    font-size: 35px;
+}
+
 
 .resume {
     padding: 10px;
